@@ -1,0 +1,15 @@
+@import './mixins.scss';
+@import './varible.scss';
+@import './reset.css';
+@import './iconfont.css' ;   
+
+html{
+    font-size: 100px;
+}
+body{
+    font-size: .12rem;
+    font-family: "Noto Sans TC";
+}
+img{
+    width: 100%;
+}
