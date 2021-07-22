@@ -1,4 +1,4 @@
-# bee-shoping
+# vue2-note
 
 ## Project setup
 ```
