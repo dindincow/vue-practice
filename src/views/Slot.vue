@@ -9,7 +9,7 @@
 		<!---- 基本使用 ---->
 		<div class="box1">
 			<p>BOX1</p>
-			<Child> 我是父組件的文字</Child>
+			<Child> 45465</Child>
 		</div>
 		<!---- 具名插槽 ---->
 		<!-- 必須在 子組件中使用 templete -->

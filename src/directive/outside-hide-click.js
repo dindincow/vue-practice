@@ -19,7 +19,10 @@ export const outsideHideClick =  {
                 }
                
             }else{
-                dom.style.display = 'none';
+                if(dom){
+                    dom.style.display = 'none';
+                }
+               
             }
 
             // if( !(el === e.target || el.contains(e.target))){

@@ -1,6 +1,6 @@
 <template>
 	<div class="main">
-        <div>我是組件A -  {{commonData}}</div>
+        <div class="text">我是組件A -  {{commonData}}</div>
         <button @click="compAmethods">組件A按鈕</button>
         <button @click="commonMethods">共用方法</button>
 	</div>
@@ -29,3 +29,9 @@ export default {
     },
 }
 </script>
+<style lang="scss" scoped>
+.text{
+    color: #eee;
+    font-size: 14px;
+}
+</style>

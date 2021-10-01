@@ -1,9 +1,10 @@
 <template>
 	<div class="main">
-        <slot :userInfor="userInfor">子組件slot </slot> 
-        <slot name="top">子組件top</slot>
-		<slot>這是子組件預設文字</slot>
-        <slot name="bottom"> 子組件bottom </slot>
+        <!-- <div><slot>這是子組件預設文字</slot></div> -->
+        
+        <div><slot :userInfor="userInfor">子組件slot </slot> </div>
+        <div><slot name="top">子組件top</slot></div>
+        <div><slot name="bottom"> 子組件bottom </slot></div> 
 	</div>
 </template>
 

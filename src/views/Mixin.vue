@@ -1,6 +1,5 @@
 <template>
     <div>
-        145456
         <CompA/>
         <br/>
         <CompB/>
