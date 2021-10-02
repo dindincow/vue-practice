@@ -20,11 +20,10 @@ const routes = [
     },
     {
         path: '/slot',
-        name: 'Slot',
-        // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "about" */ '../views/Slot.vue')
+        name: 'Slot', 
+        // component: () => import(/* webpackChunkName: "about" */ '../views/slot/01_基本使用.vue')
+        // component: () => import(/* webpackChunkName: "about" */ '../views/slot/02_具名插槽.vue')
+        component: () => import(/* webpackChunkName: "about" */ '../views/slot/03_作用域插槽.vue')
     },
     {
         path: '/lifeCycle',
