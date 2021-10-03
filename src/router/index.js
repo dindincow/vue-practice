@@ -81,6 +81,14 @@ const routes = [
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
         component: () => import(/* webpackChunkName: "about" */ '../views/communication/Sibling.vue')
+    },
+    {
+        path: '/dataObject',
+        name: 'DataObject',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "about" */ '../views/數據響應/01_vue2數據劫持問題.vue')
     }
 ]
 
